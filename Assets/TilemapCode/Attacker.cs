@@ -5,6 +5,8 @@ public class Attacker : MonoBehaviour
     public Animator Animator;
     public KeyboardInput KeyboardInput;
     public GamepadInput GamepadInput;
+    public Shoot Shoot;
+    public GameObject FireBall;
 
     private const string ATTACK_ANIMATION_NAME = "Attack";
 
@@ -18,6 +20,8 @@ public class Attacker : MonoBehaviour
         if (WasAttackButtonPressed())
         {
             TriggerAttackAnimation();
+
+            Shoot.ShootBall(10f, FireBall);
         }
     }
 
@@ -76,5 +80,10 @@ public class Attacker : MonoBehaviour
         
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME); 
+    }
+
+    private void TriggerProjectileAnimation()
+    {
+        // add projectile attack animation here
     }
 }
