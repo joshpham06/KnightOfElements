@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Attacker : MonoBehaviour
 {
@@ -7,6 +8,11 @@ public class Attacker : MonoBehaviour
     public GamepadInput GamepadInput;
     public Shoot Shoot;
     public GameObject FireBall;
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        
+    }
 
     private const string ATTACK_ANIMATION_NAME = "Attack";
 
@@ -23,6 +29,8 @@ public class Attacker : MonoBehaviour
 
             Shoot.ShootBall(10f, FireBall);
         }
+        
+        
     }
 
     private void InitializeComponents()
