@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Wall
   - Projectile
+  - Wolf
+  - Golem
+  - TentacleHead
+  - Sounds
   layers:
   - Default
   - TransparentFX
