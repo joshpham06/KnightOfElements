@@ -6,6 +6,8 @@ public class EnemyAttack : MonoBehaviour
     public Animator Animator;
     public Shoot Shoot;
     public GameObject FireBall;
+    public Sounds Sounds;
+    public GameObject currentObject; 
     
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -20,6 +22,8 @@ public class EnemyAttack : MonoBehaviour
     private void Awake()
     {
         InitializeComponents();
+        currentObject = this.gameObject;
+        //Sounds = GameObject.FindGameObjectWithTag("Sounds");
     }
 
     private void Update()
@@ -33,6 +37,9 @@ public class EnemyAttack : MonoBehaviour
         {
             Animator = GetComponent<Animator>();
         }
+        
+        
+        
     }
     
 
@@ -42,7 +49,19 @@ public class EnemyAttack : MonoBehaviour
         {
             return;
         }
-        
+
+        if (currentObject.gameObject.tag == "Golem")
+        {
+            Sounds.PlayGolemAttack();
+        }
+        if (currentObject.gameObject.tag == "TentacleHead")
+        {
+            Sounds.PlayTentacleAttack();
+        }
+        if (currentObject.gameObject.tag == "Wolf")
+        {
+            Sounds.PlayWolfAttack();
+        }
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME); 
     }

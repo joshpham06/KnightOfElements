@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 4415745362904414897}
   m_Layer: 0
   m_Name: WolfAI
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,6 +273,8 @@ MonoBehaviour:
   Animator: {fileID: 2214885111664597413}
   Shoot: {fileID: 0}
   FireBall: {fileID: 0}
+  Sounds: {fileID: 0}
+  currentObject: {fileID: 0}
 --- !u!1 &7981337168246076723
 GameObject:
   m_ObjectHideFlags: 0

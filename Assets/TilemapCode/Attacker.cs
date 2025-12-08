@@ -8,6 +8,7 @@ public class Attacker : MonoBehaviour
     public GamepadInput GamepadInput;
     public Shoot Shoot;
     public GameObject FireBall;
+    public Sounds Sounds;
 
     public void OnCollisionEnter2D(Collision2D other)
     {
@@ -85,6 +86,8 @@ public class Attacker : MonoBehaviour
         {
             return;
         }
+
+        Sounds.PlaySwordAttack(); 
         
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME); 
