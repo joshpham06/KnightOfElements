@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 713377862}
     - target: {fileID: 3305893227457170973, guid: 2b529a6c4e3f0cd448c1530e7dba0c75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: -9.7
       objectReference: {fileID: 0}
     - target: {fileID: 3305893227457170973, guid: 2b529a6c4e3f0cd448c1530e7dba0c75, type: 3}
       propertyPath: m_LocalPosition.y
@@ -814,6 +814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52412fdd12cc4b6408ed72fb0fe20b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInfo
+  SpriteRenderer: {fileID: 785636013}
 --- !u!1 &1195194729
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,11 +966,11 @@ PrefabInstance:
       objectReference: {fileID: 785636014}
     - target: {fileID: 5155093475115988725, guid: 5f6f9dd87c57d5246b5948152e1e4138, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.13
+      value: -15.32
       objectReference: {fileID: 0}
     - target: {fileID: 5155093475115988725, guid: 5f6f9dd87c57d5246b5948152e1e4138, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.71
+      value: -1.71
       objectReference: {fileID: 0}
     - target: {fileID: 5155093475115988725, guid: 5f6f9dd87c57d5246b5948152e1e4138, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1233,7 +1234,7 @@ PrefabInstance:
       objectReference: {fileID: 785636014}
     - target: {fileID: 6499501045305258142, guid: 9b2b2bcc2ed9ad34fa3a1d2c764f29df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.86
+      value: -9.77
       objectReference: {fileID: 0}
     - target: {fileID: 6499501045305258142, guid: 9b2b2bcc2ed9ad34fa3a1d2c764f29df, type: 3}
       propertyPath: m_LocalPosition.y

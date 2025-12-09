@@ -403,5 +403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d945fa0f1b834ca7800e65c6b54e708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  health: 100
+  health: 75
   damage: 15
+  spriteRenderer: {fileID: 0}

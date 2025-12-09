@@ -14,7 +14,7 @@ public class PlayerInfo : MonoBehaviour
     //5 = Water
     private int magicDmg;
     private int score = 0; 
-    public SpriteRenderer SpriteRenderer;
+    public SpriteRenderer spriteRenderer;
     
     
     private void Update()
@@ -31,6 +31,7 @@ public class PlayerInfo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         SetHealth(100);
         SetAttackDmg(25);
         SetMagicType(1);
@@ -65,9 +66,9 @@ public class PlayerInfo : MonoBehaviour
     
     IEnumerator FlashRed()
     {
-        SpriteRenderer.color = Color.red;
+        spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(.25f);
-        SpriteRenderer.color = Color.white;
+        spriteRenderer.color = Color.white;
     }
 
 
