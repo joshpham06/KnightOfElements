@@ -15,68 +15,95 @@ public class PlayerInfo : MonoBehaviour
     private int score = 0; 
     
     
+    private void Update()
+    {
+
+        if (health <= 0)
+        {
+            KillPlayer(); 
+        }
+        
+    }
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        setHealth(100);
-        setAttackDmg(25);
-        setMagicType(1);
-        setMagicDmg(5);
+        SetHealth(100);
+        SetAttackDmg(25);
+        SetMagicType(1);
+        SetMagicDmg(5);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void setHealth(int health)
+    public void SetHealth(int health)
     {
         this.health = health;
     }
 
-    public void addHealth(int health)
+    public void AddHealth(int health)
     {
         this.health += health;
+        if (this.health > 100) 
+        { 
+            this.health = 100;
+        }
     }
 
-    public int getHealth()
+    public void LoseHealth(int health)
+    {
+        this.health -= health;
+        if (this.health <= 0)
+        {
+            this.health = 0;
+        }
+    }
+
+    public int GetHealth()
     {
         return this.health;
     }
 
-    public void addScore(int points)
+    public void AddScore(int points)
     {
         score += points;
     }
 
-    public void setAttackDmg(int dmg)
+    public void SetAttackDmg(int dmg)
     {
         this.attackDmg = dmg;
     }
 
-    public int getAttackDmg()
+    public int GetAttackDmg()
     {
         return this.attackDmg;
     }
 
-    public void setMagicDmg(int dmg)
+    public void SetMagicDmg(int dmg)
     {
         this.magicDmg = dmg;
     }
 
-    public int getMagicDmg()
+    public int GetMagicDmg()
     {
         return this.magicDmg;
     }
 
-    public void setMagicType(int type)
+    public void SetMagicType(int type)
     {
         this.magicType = type;
     }
 
-    public int getMagicType()
+    public int GetMagicType()
     {
         return this.magicType;
     }
+
+    private void KillPlayer()
+    {
+        this.gameObject.SetActive(false);
+        //trigger game over screen 
+        
+    }
+    
+    
 }

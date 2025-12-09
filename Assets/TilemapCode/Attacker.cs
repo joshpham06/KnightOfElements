@@ -15,13 +15,13 @@ public class Attacker : MonoBehaviour
     {
         if (other.gameObject.tag == "Health")
         {
-            PlayerInfo.addHealth(25);
+            PlayerInfo.AddHealth(25);
             Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "Gem")
         {
-            PlayerInfo.addScore(100);
+            PlayerInfo.AddScore(100);
             Destroy(other.gameObject);
         }
     }

@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 4494941644783369467}
   - component: {fileID: 3213031511955187645}
   - component: {fileID: 691410749559604636}
+  - component: {fileID: -2028265137995940227}
   m_Layer: 0
   m_Name: GolemAI
   m_TagString: Golem
@@ -388,3 +389,16 @@ MonoBehaviour:
   FireBall: {fileID: 0}
   Sounds: {fileID: 0}
   currentObject: {fileID: 0}
+--- !u!114 &-2028265137995940227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096196409616151462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d945fa0f1b834ca7800e65c6b54e708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  health: 150
