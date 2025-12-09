@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerInfo : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerInfo : MonoBehaviour
     //5 = Water
     private int magicDmg;
     private int score = 0; 
+    public SpriteRenderer SpriteRenderer;
     
     
     private void Update()
@@ -58,7 +60,16 @@ public class PlayerInfo : MonoBehaviour
         }
         
         print("Player lost " + amount + " health");
+        StartCoroutine(FlashRed());
     }
+    
+    IEnumerator FlashRed()
+    {
+        SpriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(.25f);
+        SpriteRenderer.color = Color.white;
+    }
+
 
     public int GetHealth()
     {
