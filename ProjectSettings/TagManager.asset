@@ -10,6 +10,9 @@ TagManager:
   - Golem
   - TentacleHead
   - Sounds
+  - AutoPickUp
+  - Health
+  - Gem
   layers:
   - Default
   - TransparentFX

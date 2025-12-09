@@ -245,7 +245,7 @@ MonoBehaviour:
   radius: 0.2
   height: 2
   simulateMovement: 1
-  maxSpeed: 4.5
+  maxSpeed: 3.5
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2

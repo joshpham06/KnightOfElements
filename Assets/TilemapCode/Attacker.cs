@@ -9,10 +9,21 @@ public class Attacker : MonoBehaviour
     public Shoot Shoot;
     public GameObject FireBall;
     public Sounds Sounds;
+    public PlayerInfo PlayerInfo;
 
-    public void OnCollisionEnter2D(Collision2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.tag == "Health")
+        {
+            PlayerInfo.addHealth(25);
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.tag == "Gem")
+        {
+            PlayerInfo.addScore(100);
+            Destroy(other.gameObject);
+        }
     }
 
     private const string ATTACK_ANIMATION_NAME = "Attack";

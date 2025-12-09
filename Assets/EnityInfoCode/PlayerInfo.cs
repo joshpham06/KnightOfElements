@@ -12,6 +12,7 @@ public class PlayerInfo : MonoBehaviour
     //4 = Air
     //5 = Water
     private int magicDmg;
+    private int score = 0; 
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -34,9 +35,19 @@ public class PlayerInfo : MonoBehaviour
         this.health = health;
     }
 
+    public void addHealth(int health)
+    {
+        this.health += health;
+    }
+
     public int getHealth()
     {
         return this.health;
+    }
+
+    public void addScore(int points)
+    {
+        score += points;
     }
 
     public void setAttackDmg(int dmg)

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
@@ -7,13 +8,14 @@ public class EnemyAttack : MonoBehaviour
     public Shoot Shoot;
     public GameObject FireBall;
     public Sounds Sounds;
-    public GameObject currentObject; 
+    public GameObject currentObject;
+    private bool isAttacking = false;
     
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            TriggerAttackAnimation();
+            StartCoroutine(TriggerAttackAnimation());
         }
     }
 
@@ -43,13 +45,16 @@ public class EnemyAttack : MonoBehaviour
     }
     
 
-    private void TriggerAttackAnimation()
+    IEnumerator TriggerAttackAnimation()
     {
-        if (Animator == null)
-        {
-            return;
-        }
 
+        if (isAttacking)
+        {
+            yield break;
+        }
+        
+        isAttacking =  true;
+        
         if (currentObject.gameObject.tag == "Golem")
         {
             Sounds.PlayGolemAttack();
@@ -63,7 +68,12 @@ public class EnemyAttack : MonoBehaviour
             Sounds.PlayWolfAttack();
         }
         // Manually plays the attack animation (no blending/transitions)
-        Animator.Play(ATTACK_ANIMATION_NAME); 
+        Animator.Play(ATTACK_ANIMATION_NAME);
+        
+        isAttacking = false;
+        
+        yield return new WaitForSeconds(3f);
     }
+    
 
 }

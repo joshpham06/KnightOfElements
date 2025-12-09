@@ -4,65 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="Added Coroutine to Attack Animations and sounds to mobs">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/PatreonGWriterStudio.url" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/PatreonGWriterStudio.url.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/Tracks List.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/Tracks List.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Fated Quest - 031217.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Fated Quest - 031217.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Flying Creature - 031517.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Flying Creature - 031517.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Forgotten Hero - 031717.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Forgotten Hero - 031717.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Great Kingdoms Fight - 031917.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Great Kingdoms Fight - 031917.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/It Just The Beginning - 031117.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/It Just The Beginning - 031117.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Last Victory Horn - 031817.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Last Victory Horn - 031817.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Lost and Revenge - 031617.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Lost and Revenge - 031617.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Missing Legend - 031017.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Missing Legend - 031017.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Released Monster - 031417.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Released Monster - 031417.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Through The Gate - 031317.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/mp3 - 320kbps/Through The Gate - 031317.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Fated Quest - 031217.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Fated Quest - 031217.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Flying Creature - 031517.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Flying Creature - 031517.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Forgotten Hero - 031717.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Forgotten Hero - 031717.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Great Kingdoms Fight - 031917.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Great Kingdoms Fight - 031917.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/It Just The Beginning - 031117.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/It Just The Beginning - 031117.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Last Victory Horn - 031817.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Last Victory Horn - 031817.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Lost and Revenge - 031617.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Lost and Revenge - 031617.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Missing Legend - 031017.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Missing Legend - 031017.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Released Monster - 031417.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Released Monster - 031417.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Through The Gate - 031317.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Battle Music Album - 031017/wav - 1411kbps/Through The Gate - 031317.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WolfAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WolfAI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WolfManual.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WolfManual.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileMapStuff/New Tile Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileMapStuff/New Tile Palette.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Warrior_Red_18.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Warrior_Red_18.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,10 +61,12 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -204,7 +162,8 @@
       <workItem from="1764873837687" duration="1028000" />
       <workItem from="1764876454984" duration="3618000" />
       <workItem from="1764882891290" duration="2600000" />
-      <workItem from="1765162692909" duration="2559000" />
+      <workItem from="1765162692909" duration="2667000" />
+      <workItem from="1765241263408" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <option name="closed" value="true" />
@@ -238,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764887454170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added AutoSounds to Sword and Enemy Attacks">
+      <option name="closed" value="true" />
+      <created>1765165330208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765165330208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +236,9 @@
     <MESSAGE value="AI Animations and Pathfinding Linked" />
     <MESSAGE value="Changed Rigid Body on Player to freeze all axis so the enemies cant push you" />
     <MESSAGE value="Prefab Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Added AutoSounds to Sword and Enemy Attacks" />
+    <MESSAGE value="Added Coroutine to Attack Animations and sounds to mobs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Coroutine to Attack Animations and sounds to mobs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
