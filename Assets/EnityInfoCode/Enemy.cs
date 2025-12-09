@@ -2,15 +2,39 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 100;
+    
+    public int health;
+    
+    private void Update()
+    {
+
+        if (health <= 0)
+        {
+            KillEnemy(); 
+        }
+        
+    }
+    
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Projectile") )
         {
-            health -= 10;
+            LoseHealth(10);
         }
-        
-        if (health <= 0)
-            Destroy(gameObject);
     }
+    
+    public void LoseHealth(int health)
+    {
+        this.health -= health;
+        if (this.health <= 0)
+        {
+            this.health = 0;
+        }
+    }
+
+    private void KillEnemy()
+    {
+        Destroy(gameObject);
+    }
+    
 }
