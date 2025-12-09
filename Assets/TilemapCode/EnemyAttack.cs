@@ -9,15 +9,34 @@ public class EnemyAttack : MonoBehaviour
     public GameObject FireBall;
     public Sounds Sounds;
     public GameObject currentObject;
+    public PlayerInfo PlayerInfo;
+    public Enemy Enemy; 
     private bool isAttacking = false;
-    
+    private bool isTouchingPlayer = false;
+    private bool damageTimer = false;
     private void OnCollisionEnter2D(Collision2D other)
     {
+        
+        
         if (other.gameObject.tag == "Player")
         {
             StartCoroutine(TriggerAttackAnimation());
+            isTouchingPlayer = true;
+            StartCoroutine(CallDealDamage()); 
+        }
+        
+    }
+
+    
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            isTouchingPlayer = false;
         }
     }
+
 
     private const string ATTACK_ANIMATION_NAME = "Attack";
 
@@ -25,7 +44,8 @@ public class EnemyAttack : MonoBehaviour
     {
         InitializeComponents();
         currentObject = this.gameObject;
-        //Sounds = GameObject.FindGameObjectWithTag("Sounds");
+        PlayerInfo = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInfo>();
+        Enemy = GetComponent<Enemy>(); 
     }
 
     private void Update()
@@ -70,9 +90,38 @@ public class EnemyAttack : MonoBehaviour
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME);
         
-        isAttacking = false;
         
-        yield return new WaitForSeconds(3f);
+        
+        yield return new WaitForSeconds(1.85f);
+        
+        isAttacking = false;
+    }
+
+    IEnumerator CallDealDamage()
+    {
+
+
+        if (damageTimer)
+        {
+            yield break;
+        } 
+        damageTimer = true;
+
+        if (isTouchingPlayer)
+        {
+            DealDamage();
+        }
+        
+        yield return new WaitForSeconds(1f);
+        damageTimer = false;
+
+    }
+    
+    
+    
+    private void DealDamage()
+    {
+        PlayerInfo.LoseHealth(Enemy.damage);
     }
     
 

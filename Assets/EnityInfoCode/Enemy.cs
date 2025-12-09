@@ -4,6 +4,7 @@ public class Enemy : MonoBehaviour
 {
     
     public int health;
+    public int damage; 
     
     private void Update()
     {
@@ -23,9 +24,9 @@ public class Enemy : MonoBehaviour
         }
     }
     
-    public void LoseHealth(int health)
+    private void LoseHealth(int amount)
     {
-        this.health -= health;
+        this.health -= amount;
         if (this.health <= 0)
         {
             this.health = 0;

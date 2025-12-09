@@ -389,6 +389,8 @@ MonoBehaviour:
   FireBall: {fileID: 0}
   Sounds: {fileID: 0}
   currentObject: {fileID: 0}
+  PlayerInfo: {fileID: 0}
+  Enemy: {fileID: 0}
 --- !u!114 &-2028265137995940227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,3 +404,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 150
+  damage: 20
