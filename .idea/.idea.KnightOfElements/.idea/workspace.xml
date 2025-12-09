@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="Added Coroutine to Attack Animations and sounds to mobs">
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelTwo.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TileMapStuff/New Tile Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TileMapStuff/New Tile Palette.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WolfAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WolfAI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +156,7 @@
       <workItem from="1764882891290" duration="2600000" />
       <workItem from="1765162692909" duration="2667000" />
       <workItem from="1765241263408" duration="2518000" />
+      <workItem from="1765245338748" duration="5848000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <option name="closed" value="true" />
@@ -205,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765165330208</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Coroutine to Attack Animations and sounds to mobs">
+      <option name="closed" value="true" />
+      <created>1765245351001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765245351001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions">
+      <option name="closed" value="true" />
+      <created>1765248380947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765248380947</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +247,8 @@
     <MESSAGE value="Prefab Fix" />
     <MESSAGE value="Added AutoSounds to Sword and Enemy Attacks" />
     <MESSAGE value="Added Coroutine to Attack Animations and sounds to mobs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Coroutine to Attack Animations and sounds to mobs" />
+    <MESSAGE value="Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

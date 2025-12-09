@@ -27,7 +27,7 @@ public class PlayerInfo : MonoBehaviour
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Start()
     {
         SetHealth(100);
         SetAttackDmg(25);
@@ -35,27 +35,29 @@ public class PlayerInfo : MonoBehaviour
         SetMagicDmg(5);
     }
 
-    public void SetHealth(int health)
+    public void SetHealth(int amount)
     {
-        this.health = health;
+        this.health = amount;
     }
 
-    public void AddHealth(int health)
+    public void AddHealth(int amount)
     {
-        this.health += health;
+        this.health += amount;
         if (this.health > 100) 
         { 
             this.health = 100;
         }
     }
 
-    public void LoseHealth(int health)
+    public void LoseHealth(int amount)
     {
-        this.health -= health;
+        this.health -= amount;
         if (this.health <= 0)
         {
             this.health = 0;
         }
+        
+        print("Player lost " + amount + " health");
     }
 
     public int GetHealth()
@@ -100,7 +102,7 @@ public class PlayerInfo : MonoBehaviour
 
     private void KillPlayer()
     {
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
         //trigger game over screen 
         
     }
