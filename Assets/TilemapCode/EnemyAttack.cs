@@ -13,16 +13,16 @@ public class EnemyAttack : MonoBehaviour
     public Enemy Enemy; 
     private bool isAttacking = false;
     private bool isTouchingPlayer = false;
-    private bool damageTimer = false;
+    private bool damageTimer = false; 
     private void OnCollisionEnter2D(Collision2D other)
     {
         
         
         if (other.gameObject.tag == "Player")
         {
-            StartCoroutine(TriggerAttackAnimation());
             isTouchingPlayer = true;
-            StartCoroutine(CallDealDamage()); 
+            StartCoroutine(TriggerAttackAnimation());
+            
         }
         
     }
@@ -74,6 +74,8 @@ public class EnemyAttack : MonoBehaviour
         }
         
         isAttacking =  true;
+
+        
         
         if (currentObject.gameObject.tag == "Golem")
         {
@@ -89,7 +91,7 @@ public class EnemyAttack : MonoBehaviour
         }
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME);
-        
+        StartCoroutine(CallDealDamage());
         
         
         yield return new WaitForSeconds(1.85f);
@@ -107,14 +109,17 @@ public class EnemyAttack : MonoBehaviour
         } 
         damageTimer = true;
 
+        
+        
+        yield return new WaitForSeconds(.5f);
+        
         if (isTouchingPlayer)
         {
             DealDamage();
         }
-        
-        yield return new WaitForSeconds(1f);
-        damageTimer = false;
+        damageTimer = false; 
 
+        
     }
     
     
