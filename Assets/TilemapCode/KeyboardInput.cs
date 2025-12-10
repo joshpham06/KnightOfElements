@@ -48,7 +48,7 @@ public class KeyboardInput : MonoBehaviour
             return false;
         }
         
-        return Keyboard.current[Key.LeftShift].wasPressedThisFrame;
+        return Keyboard.current[Key.Space].wasPressedThisFrame;
     }
 
     private bool IsKeyboardUnavailable()
