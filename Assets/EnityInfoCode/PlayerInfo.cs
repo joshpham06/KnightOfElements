@@ -117,6 +117,9 @@ public class PlayerInfo : MonoBehaviour
     private void KillPlayer()
     {
         //this.gameObject.SetActive(false);
+            // cannot preform this because it deactivates the camera cause it's on the player
+        
+        
         //trigger game over screen 
         
     }

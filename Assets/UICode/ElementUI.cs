@@ -29,6 +29,11 @@ public class ElementUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha5)) 
             SelectElement(4);
     }
+    
+    public int FetchElement()
+    {
+        return CurrentElementIndex;
+    }
 
     private void SelectElement(int index)
     {
@@ -36,7 +41,7 @@ public class ElementUI : MonoBehaviour
         UpdateElementIcon(index);
         UpdatePlayerColor(index);
     }
-    
+
     private void SwitchElement(int index)
     {
         

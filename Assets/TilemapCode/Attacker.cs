@@ -7,7 +7,6 @@ public class Attacker : MonoBehaviour
     public KeyboardInput KeyboardInput;
     public GamepadInput GamepadInput;
     public Shoot Shoot;
-    public GameObject FireBall;
     public Sounds Sounds;
     public PlayerInfo PlayerInfo;
     public Enemy enemy;
@@ -47,11 +46,9 @@ public class Attacker : MonoBehaviour
         if (WasAttackButtonPressed())
         {
             TriggerAttackAnimation();
-
-            Shoot.ShootBall(10f, FireBall);
+            
+            Shoot.FireProjectile();
         }
-        
-        
     }
 
     private void InitializeComponents()
@@ -107,7 +104,7 @@ public class Attacker : MonoBehaviour
             return;
         }
 
-        Sounds.PlaySwordAttack(); 
+        //sounds.PlaySwordAttack(); 
         
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME);
