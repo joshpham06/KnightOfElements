@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Wall
   - Projectile
+  - Wolf
+  - Golem
+  - TentacleHead
+  - Sounds
+  - AutoPickUp
+  - Health
+  - Gem
   layers:
   - Default
   - TransparentFX

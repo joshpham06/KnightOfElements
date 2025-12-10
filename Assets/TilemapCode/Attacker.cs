@@ -8,10 +8,31 @@ public class Attacker : MonoBehaviour
     public GamepadInput GamepadInput;
     public Shoot Shoot;
     public GameObject FireBall;
+    public Sounds Sounds;
+    public PlayerInfo PlayerInfo;
+    public Enemy enemy;
+    private bool isTouching; 
 
-    public void OnCollisionEnter2D(Collision2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
+        isTouching = true;
         
+        if (other.gameObject.tag == "Health")
+        {
+            PlayerInfo.AddHealth(25);
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.tag == "Gem")
+        {
+            PlayerInfo.AddScore(100);
+            Destroy(other.gameObject);
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        isTouching = false;
     }
 
     private const string ATTACK_ANIMATION_NAME = "Attack";
@@ -85,9 +106,20 @@ public class Attacker : MonoBehaviour
         {
             return;
         }
+
+        Sounds.PlaySwordAttack(); 
         
         // Manually plays the attack animation (no blending/transitions)
-        Animator.Play(ATTACK_ANIMATION_NAME); 
+        Animator.Play(ATTACK_ANIMATION_NAME);
+        if (isTouching)
+        {
+            DealDamage();
+        }
+    }
+    
+    private void DealDamage()
+    {
+        enemy.LoseHealth(PlayerInfo.GetAttackDmg());
     }
 
     private void TriggerProjectileAnimation()

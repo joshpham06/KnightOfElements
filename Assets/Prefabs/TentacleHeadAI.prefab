@@ -130,9 +130,10 @@ GameObject:
   - component: {fileID: 5623468522978414922}
   - component: {fileID: 7334386512282161495}
   - component: {fileID: 2299852403537742465}
+  - component: {fileID: -5347634465232702651}
   m_Layer: 0
   m_Name: TentacleHeadAI
-  m_TagString: Untagged
+  m_TagString: TentacleHead
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +246,7 @@ MonoBehaviour:
   radius: 0.2
   height: 2
   simulateMovement: 1
-  maxSpeed: 4.5
+  maxSpeed: 3.5
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -386,3 +387,22 @@ MonoBehaviour:
   Animator: {fileID: 7144655945862795244}
   Shoot: {fileID: 0}
   FireBall: {fileID: 0}
+  Sounds: {fileID: 0}
+  currentObject: {fileID: 0}
+  PlayerInfo: {fileID: 0}
+  Enemy: {fileID: 0}
+--- !u!114 &-5347634465232702651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4625170686075298450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d945fa0f1b834ca7800e65c6b54e708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  health: 75
+  damage: 15
+  spriteRenderer: {fileID: 0}

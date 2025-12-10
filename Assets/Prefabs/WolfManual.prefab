@@ -206,6 +206,8 @@ MonoBehaviour:
   Animator: {fileID: 2354309325097911428}
   KeyboardInput: {fileID: 474616368264281472}
   GamepadInput: {fileID: 0}
+  Shoot: {fileID: 0}
+  FireBall: {fileID: 0}
 --- !u!114 &474616368264281472
 MonoBehaviour:
   m_ObjectHideFlags: 0

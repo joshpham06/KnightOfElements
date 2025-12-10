@@ -17,9 +17,10 @@ GameObject:
   - component: {fileID: 1307373926009429748}
   - component: {fileID: 7491328487334053878}
   - component: {fileID: 4415745362904414897}
+  - component: {fileID: -4345598577986112837}
   m_Layer: 0
   m_Name: WolfAI
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,6 +274,24 @@ MonoBehaviour:
   Animator: {fileID: 2214885111664597413}
   Shoot: {fileID: 0}
   FireBall: {fileID: 0}
+  Sounds: {fileID: 0}
+  currentObject: {fileID: 0}
+  PlayerInfo: {fileID: 0}
+  Enemy: {fileID: 0}
+--- !u!114 &-4345598577986112837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789852370959882854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d945fa0f1b834ca7800e65c6b54e708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  health: 50
+  damage: 10
 --- !u!1 &7981337168246076723
 GameObject:
   m_ObjectHideFlags: 0
