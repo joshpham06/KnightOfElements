@@ -350,7 +350,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 160}
+  m_SizeDelta: {x: 560, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346045093
 MonoBehaviour:
@@ -501,7 +501,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 680, y: 140}
+  m_SizeDelta: {x: 544, y: 112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &477752842
 MonoBehaviour:
@@ -873,6 +873,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1468513634}
     m_Modifications:
+    - target: {fileID: -8646973950434406454, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3153128457685564402, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
       propertyPath: m_Name
       value: SelectedBorder2
@@ -1538,6 +1542,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 7853909486617326920, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1787,6 +1799,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 7853909486617326920, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1809,6 +1829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1468513634}
     m_Modifications:
+    - target: {fileID: -8646973950434406454, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3153128457685564402, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
       propertyPath: m_Name
       value: SelectedBorder3
@@ -2093,7 +2117,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 662.5, y: 160}
+  m_SizeDelta: {x: 530, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468513635
 MonoBehaviour:
@@ -2115,8 +2139,8 @@ MonoBehaviour:
   m_ChildAlignment: 3
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 125, y: 125}
-  m_Spacing: {x: 8.8, y: 0}
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 7.25, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &1468513636
@@ -2198,7 +2222,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 160}
+  m_SizeDelta: {x: 560, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470373662
 MonoBehaviour:
@@ -2258,8 +2282,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 108, y: 108}
-  m_Spacing: {x: 25.5, y: 0}
+  m_CellSize: {x: 88, y: 88}
+  m_Spacing: {x: 18.9, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!225 &1539219152 stripped
@@ -2432,6 +2456,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1468513634}
     m_Modifications:
+    - target: {fileID: -8646973950434406454, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3153128457685564402, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
       propertyPath: m_Name
       value: SelectedBorder4
@@ -2705,6 +2733,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 7853909486617326920, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2831,6 +2867,14 @@ PrefabInstance:
     - target: {fileID: 2156937795903889189, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 7853909486617326920, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
       propertyPath: m_Sprite
@@ -3104,6 +3148,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1468513634}
     m_Modifications:
+    - target: {fileID: -8646973950434406454, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3153128457685564402, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
       propertyPath: m_Name
       value: SelectedBorder1
@@ -3311,6 +3359,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666501708839108235, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 88
+      objectReference: {fileID: 0}
     - target: {fileID: 7853909486617326920, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3333,6 +3389,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1468513634}
     m_Modifications:
+    - target: {fileID: -8646973950434406454, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3153128457685564402, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
       propertyPath: m_Name
       value: SelectedBorder5
