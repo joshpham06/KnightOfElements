@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class ElementUI : MonoBehaviour
 {
     public CanvasGroup[] ElementBorders;
+    public Image[] ElementColors;
+    public Image PlayerColor;
 
     private int CurrentElementIndex = 0;
 
@@ -32,6 +34,7 @@ public class ElementUI : MonoBehaviour
     {
         SwitchElement(index);
         UpdateElementIcon(index);
+        UpdatePlayerColor(index);
     }
     
     private void SwitchElement(int index)
@@ -52,5 +55,11 @@ public class ElementUI : MonoBehaviour
         {
             ElementBorders[i].alpha = 0;
         }
+    }
+
+    private void UpdatePlayerColor(int index)
+    {
+        Color elementColor = ElementColors[index].color;
+        PlayerColor.color = elementColor;
     }
 }
