@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,6 +150,7 @@
       <workItem from="1765241263408" duration="2518000" />
       <workItem from="1765245338748" duration="10865000" />
       <workItem from="1765385184873" duration="1132000" />
+      <workItem from="1765401476901" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <option name="closed" value="true" />
@@ -233,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765264059552</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sounds Updated">
+      <option name="closed" value="true" />
+      <created>1765402391093</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765402391093</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +277,8 @@
     <MESSAGE value="Added ability for player to take damage but still needs better timing" />
     <MESSAGE value="Timing on Damage Taken Fixed" />
     <MESSAGE value="Enemies now take damage and can die" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemies now take damage and can die" />
+    <MESSAGE value="Sounds Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sounds Updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
