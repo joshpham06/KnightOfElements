@@ -45,9 +45,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -231,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765264059552</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="temp turned off a sound in attacker causing errors">
+      <option name="closed" value="true" />
+      <created>1765405574509</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765405574509</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +286,8 @@
     <MESSAGE value="Added ability for player to take damage but still needs better timing" />
     <MESSAGE value="Timing on Damage Taken Fixed" />
     <MESSAGE value="Enemies now take damage and can die" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enemies now take damage and can die" />
+    <MESSAGE value="temp turned off a sound in attacker causing errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp turned off a sound in attacker causing errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
