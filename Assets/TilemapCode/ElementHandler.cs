@@ -4,17 +4,16 @@ using UnityEngine.UI;
 
 public class ElementHandler : MonoBehaviour
 {
-    public Image[] ElementBorders;
-    public Sprite RegularBorder;
-    public Sprite HighlightedBorder;
+    public CanvasGroup[] ElementBorders;
 
     private int CurrentElementIndex = 0;
 
     void Start()
     {
+        ResetElements();
         UpdateElementIcon(0);
     }
-    
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1)) 
@@ -42,8 +41,16 @@ public class ElementHandler : MonoBehaviour
 
     private void UpdateElementIcon(int index)
     {
-        ElementBorders[CurrentElementIndex].sprite = RegularBorder;
-        ElementBorders[index].sprite = HighlightedBorder;
+        ElementBorders[CurrentElementIndex].alpha = 0;
+        ElementBorders[index].alpha = 1;
         CurrentElementIndex = index;
+    }
+    
+    private void ResetElements()
+    {
+        for (int i = 0; i < ElementBorders.Length; i++)
+        {
+            ElementBorders[i].alpha = 0;
+        }
     }
 }
