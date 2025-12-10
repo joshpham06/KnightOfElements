@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="" />
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +29,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Ethan2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,7 +153,7 @@
       <workItem from="1765241263408" duration="2518000" />
       <workItem from="1765245338748" duration="10865000" />
       <workItem from="1765385184873" duration="1132000" />
-      <workItem from="1765401476901" duration="546000" />
+      <workItem from="1765401476901" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <option name="closed" value="true" />
@@ -240,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765402391093</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Sounds Updated">
+      <option name="closed" value="true" />
+      <created>1765402581881</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765402581881</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sword sounds">
+      <option name="closed" value="true" />
+      <created>1765402606526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765402606526</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +297,8 @@
     <MESSAGE value="Timing on Damage Taken Fixed" />
     <MESSAGE value="Enemies now take damage and can die" />
     <MESSAGE value="Sounds Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sounds Updated" />
+    <MESSAGE value="sword sounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="sword sounds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
