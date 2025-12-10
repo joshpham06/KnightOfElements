@@ -977,6 +977,53 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4978985574757893491, guid: a2bc8aa3629fe4db0af1fdb160e964c1, type: 3}
   m_PrefabInstance: {fileID: 634635182}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &669725301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 669725303}
+  - component: {fileID: 669725302}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &669725302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669725301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d945fa0f1b834ca7800e65c6b54e708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  health: 0
+  damage: 0
+  spriteRenderer: {fileID: 0}
+--- !u!4 &669725303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669725301}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &713377862 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4625170686075298450, guid: 2b529a6c4e3f0cd448c1530e7dba0c75, type: 3}
@@ -1242,8 +1289,8 @@ MonoBehaviour:
   GamepadInput: {fileID: 785636011}
   Shoot: {fileID: 51154176}
   Sounds: {fileID: 0}
-  PlayerInfo: {fileID: 0}
-  enemy: {fileID: 0}
+  PlayerInfo: {fileID: 785636021}
+  enemy: {fileID: 669725302}
 --- !u!50 &785636017
 Rigidbody2D:
   serializedVersion: 5
@@ -3787,6 +3834,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 3245555406234389124, guid: af20c38474f89ea46a241456f2442f40, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: e8b10c27451064cfe97070c1f88fb92b, type: 2}
+    - target: {fileID: 3608117874278633829, guid: af20c38474f89ea46a241456f2442f40, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: e8b10c27451064cfe97070c1f88fb92b, type: 2}
     - target: {fileID: 7849750764002901820, guid: af20c38474f89ea46a241456f2442f40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.71943
@@ -3857,3 +3912,4 @@ SceneRoots:
   - {fileID: 5497128875032645385}
   - {fileID: 1835421764}
   - {fileID: 1011202927}
+  - {fileID: 669725303}
