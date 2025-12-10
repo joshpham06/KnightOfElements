@@ -15,11 +15,13 @@ public class PlayerInfo : MonoBehaviour
     private int magicDmg;
     private int score = 0; 
     public SpriteRenderer spriteRenderer;
+    public HealthUI HealthUI;
     
     
     private void Update()
     {
-
+        HealthUI.UpdateHealth(health);
+        
         if (health <= 0)
         {
             KillPlayer(); 
