@@ -104,7 +104,7 @@ public class Attacker : MonoBehaviour
             return;
         }
 
-        //sounds.PlaySwordAttack(); 
+        Sounds.PlaySwordAttack(); 
         
         // Manually plays the attack animation (no blending/transitions)
         Animator.Play(ATTACK_ANIMATION_NAME);
