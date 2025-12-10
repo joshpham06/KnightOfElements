@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music/Battle Music Album - 031017/wav - 1411kbps/It Just The Beginning - 031117.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/Battle Music Album - 031017/wav - 1411kbps/It Just The Beginning - 031117.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProjectileCode/Shoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectileCode/Shoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +149,7 @@
       <workItem from="1765162692909" duration="2667000" />
       <workItem from="1765241263408" duration="2518000" />
       <workItem from="1765245338748" duration="10865000" />
-      <workItem from="1765392584132" duration="6289000" />
+      <workItem from="1765392584132" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <option name="closed" value="true" />
