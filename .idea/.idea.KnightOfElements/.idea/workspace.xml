@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +53,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -144,6 +153,10 @@
       <workItem from="1764808157006" duration="3683000" />
       <workItem from="1764873837687" duration="1028000" />
       <workItem from="1764876454984" duration="3618000" />
+      <workItem from="1764882891290" duration="2600000" />
+      <workItem from="1765162692909" duration="2667000" />
+      <workItem from="1765241263408" duration="2518000" />
+      <workItem from="1765245338748" duration="10567000" />
     </task>
     <task id="LOCAL-00001" summary="initial push">
       <option name="closed" value="true" />
@@ -161,7 +174,63 @@
       <option name="project" value="LOCAL" />
       <updated>1764878408975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed Rigid Body on Player to freeze all axis so the enemies cant push you">
+      <option name="closed" value="true" />
+      <created>1764882967108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764882967108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Prefab Fix">
+      <option name="closed" value="true" />
+      <created>1764887454170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764887454170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added AutoSounds to Sword and Enemy Attacks">
+      <option name="closed" value="true" />
+      <created>1765165330208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765165330208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Coroutine to Attack Animations and sounds to mobs">
+      <option name="closed" value="true" />
+      <created>1765245351001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765245351001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions">
+      <option name="closed" value="true" />
+      <created>1765248380947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765248380947</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added ability for player to take damage but still needs better timing">
+      <option name="closed" value="true" />
+      <created>1765256384155</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765256384155</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Timing on Damage Taken Fixed">
+      <option name="closed" value="true" />
+      <created>1765261632577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765261632577</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +259,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial push" />
     <MESSAGE value="AI Animations and Pathfinding Linked" />
-    <option name="LAST_COMMIT_MESSAGE" value="AI Animations and Pathfinding Linked" />
+    <MESSAGE value="Changed Rigid Body on Player to freeze all axis so the enemies cant push you" />
+    <MESSAGE value="Prefab Fix" />
+    <MESSAGE value="Added AutoSounds to Sword and Enemy Attacks" />
+    <MESSAGE value="Added Coroutine to Attack Animations and sounds to mobs" />
+    <MESSAGE value="Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions" />
+    <MESSAGE value="Added ability for player to take damage but still needs better timing" />
+    <MESSAGE value="Timing on Damage Taken Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Timing on Damage Taken Fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

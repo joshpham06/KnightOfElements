@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerInfo : MonoBehaviour
@@ -12,60 +13,111 @@ public class PlayerInfo : MonoBehaviour
     //4 = Air
     //5 = Water
     private int magicDmg;
+    private int score = 0; 
+    public SpriteRenderer spriteRenderer;
+    
+    
+    private void Update()
+    {
+
+        if (health <= 0)
+        {
+            KillPlayer(); 
+        }
+        
+    }
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Start()
     {
-        setHealth(100);
-        setAttackDmg(25);
-        setMagicType(1);
-        setMagicDmg(5);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        SetHealth(100);
+        SetAttackDmg(25);
+        SetMagicType(1);
+        SetMagicDmg(5);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetHealth(int amount)
     {
+        this.health = amount;
+    }
+
+    public void AddHealth(int amount)
+    {
+        this.health += amount;
+        if (this.health > 100) 
+        { 
+            this.health = 100;
+        }
+    }
+
+    public void LoseHealth(int amount)
+    {
+        this.health -= amount;
+        if (this.health <= 0)
+        {
+            this.health = 0;
+        }
         
+        print("Player lost " + amount + " health");
+        StartCoroutine(FlashRed());
     }
-
-    public void setHealth(int health)
+    
+    IEnumerator FlashRed()
     {
-        this.health = health;
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(.25f);
+        spriteRenderer.color = Color.white;
     }
 
-    public int getHealth()
+
+    public int GetHealth()
     {
         return this.health;
     }
 
-    public void setAttackDmg(int dmg)
+    public void AddScore(int points)
+    {
+        score += points;
+    }
+
+    public void SetAttackDmg(int dmg)
     {
         this.attackDmg = dmg;
     }
 
-    public int getAttackDmg()
+    public int GetAttackDmg()
     {
         return this.attackDmg;
     }
 
-    public void setMagicDmg(int dmg)
+    public void SetMagicDmg(int dmg)
     {
         this.magicDmg = dmg;
     }
 
-    public int getMagicDmg()
+    public int GetMagicDmg()
     {
         return this.magicDmg;
     }
 
-    public void setMagicType(int type)
+    public void SetMagicType(int type)
     {
         this.magicType = type;
     }
 
-    public int getMagicType()
+    public int GetMagicType()
     {
         return this.magicType;
     }
+
+    private void KillPlayer()
+    {
+        //this.gameObject.SetActive(false);
+        //trigger game over screen 
+        
+    }
+    
+    
 }
