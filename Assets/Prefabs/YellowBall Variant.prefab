@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6429293055122661192
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3846698422438993086, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: destroyOnEnemy
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481561846643462608, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 228b60f97863724478569f263417eadd, type: 3}
+    - target: {fileID: 6481561846643462608, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2688679
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481561846643462608, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_Color.g
+      value: 0.92436564
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481561846643462608, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840208914181564574, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_Name
+      value: YellowBall Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865424975323102019, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
