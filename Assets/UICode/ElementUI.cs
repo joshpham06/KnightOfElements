@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ElementHandler : MonoBehaviour
+public class ElementUI : MonoBehaviour
 {
     public CanvasGroup[] ElementBorders;
 
