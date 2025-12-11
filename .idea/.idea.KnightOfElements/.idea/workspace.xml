@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="" />
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Move2d.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Move2d.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/ProjectileCode/Shoot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/Scenes/KnightOfTheElements.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -334,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765438920008</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed water physics and yellowball">
+      <option name="closed" value="true" />
+      <created>1765439674990</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765439674990</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +426,8 @@
     <MESSAGE value="-" />
     <MESSAGE value="Changed Physics between enemies to none so they dont stack on each other and get stuck" />
     <MESSAGE value="added back mouse aim" />
-    <option name="LAST_COMMIT_MESSAGE" value="added back mouse aim" />
+    <MESSAGE value="fixed water physics and yellowball" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed water physics and yellowball" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
