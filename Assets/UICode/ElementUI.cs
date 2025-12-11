@@ -7,7 +7,7 @@ public class ElementUI : MonoBehaviour
     public CanvasGroup[] ElementBorders;
     public Image[] ElementColors;
     public Image PlayerColor;
-
+ 
     private int CurrentElementIndex = 0;
 
     void Start()
@@ -44,7 +44,7 @@ public class ElementUI : MonoBehaviour
 
     private void SwitchElement(int index)
     {
-        
+        // Has this been replaced elsewhere?
     }
 
     private void UpdateElementIcon(int index)
