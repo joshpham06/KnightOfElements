@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Pathfinding;
 using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
@@ -10,10 +11,12 @@ public class EnemyAttack : MonoBehaviour
     public Sounds Sounds;
     public GameObject currentObject;
     public PlayerInfo PlayerInfo;
-    public Enemy Enemy; 
+    public Enemy Enemy;
+    public GameObject player; 
     private bool isAttacking = false;
     private bool isTouchingPlayer = false;
     private bool damageTimer = false; 
+    private AIDestinationSetter destinationSetter;
     private void OnCollisionEnter2D(Collision2D other)
     {
         
@@ -46,6 +49,17 @@ public class EnemyAttack : MonoBehaviour
         currentObject = this.gameObject;
         PlayerInfo = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInfo>();
         Enemy = GetComponent<Enemy>(); 
+        destinationSetter = GetComponent<AIDestinationSetter>();
+        
+    }
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null && destinationSetter != null)
+        {
+            destinationSetter.target = player.transform;
+        }
     }
 
     private void Update()
