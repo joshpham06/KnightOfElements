@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 301908402988641697}
   - component: {fileID: 1188016509344652341}
   - component: {fileID: 2325817384405446363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GolemAIAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 3213031511955187645}
   - component: {fileID: 691410749559604636}
   - component: {fileID: -2028265137995940227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GolemAI
   m_TagString: Golem
   m_Icon: {fileID: 0}
@@ -546,8 +546,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpriteAnimator
   AIPath: {fileID: 734990606684575415}
-  Animator: {fileID: 0}
-  SpriteRenderer: {fileID: 0}
+  Animator: {fileID: 2325817384405446363}
+  SpriteRenderer: {fileID: 1188016509344652341}
 --- !u!114 &4494941644783369467
 MonoBehaviour:
   m_ObjectHideFlags: 0

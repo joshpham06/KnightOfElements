@@ -50,6 +50,7 @@ public class EnemyAttack : MonoBehaviour
         PlayerInfo = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInfo>();
         Enemy = GetComponent<Enemy>(); 
         destinationSetter = GetComponent<AIDestinationSetter>();
+        Sounds = GameObject.FindGameObjectWithTag("Sounds").GetComponent<Sounds>();
         
     }
 

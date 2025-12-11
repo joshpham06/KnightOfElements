@@ -7,11 +7,11 @@ public class PlayerInfo : MonoBehaviour
     private int health;
     private int attackDmg;
     private int magicType;
-    //1 = fire
-    //2 = lightning
-    //3 = earth
-    //4 = Air
-    //5 = Water
+    //0 = fire
+    //1 = lightning
+    //2 = earth
+    //3 = Air
+    //4 = Water
     private int magicDmg;
     private int score = 0; 
     public SpriteRenderer spriteRenderer;
