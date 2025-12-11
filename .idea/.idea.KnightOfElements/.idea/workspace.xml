@@ -39,22 +39,22 @@
     &quot;assignee&quot;: &quot;joshpham06&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/joshpham06/KnightOfElements.git",
-    "accountId": "31e1553c-6222-472c-8e9b-584cec5b3e77"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joshpham06/KnightOfElements.git&quot;,
+    &quot;accountId&quot;: &quot;31e1553c-6222-472c-8e9b-584cec5b3e77&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "joshpham06",
-    "repository": "KnightOfElements"
+    &quot;owner&quot;: &quot;joshpham06&quot;,
+    &quot;repository&quot;: &quot;KnightOfElements&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
