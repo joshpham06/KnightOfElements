@@ -234,12 +234,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shoot
   bulletTransform: {fileID: 51154175}
-  FireBall: {fileID: 7840208914181564574, guid: 1d1f597d5938d492a9e27d7910091ab8, type: 3}
-  YellowBall: {fileID: 3888695067830679510, guid: 2688234fe5d3448cf90a00b5b90746de, type: 3}
-  DirtBall: {fileID: 3746291126173797430, guid: 18683cb9d7f8b444ea8bee026824b70f, type: 3}
-  IceBall: {fileID: 453402158547969882, guid: f861da2040c554cb5b534944755ccd29, type: 3}
-  WaterBall: {fileID: 1405327129225167099, guid: 137cfa3a6a07a40ddae599436e7955f8, type: 3}
-  ElementUI: {fileID: 1666530802}
   projectileTimeAlive: 5
   gamepadInput: {fileID: 785636011}
 --- !u!212 &51154177
@@ -977,6 +971,7 @@ MonoBehaviour:
   health: 0
   damage: 0
   spriteRenderer: {fileID: 0}
+  playerInfo: {fileID: 0}
 --- !u!4 &669725303
 Transform:
   m_ObjectHideFlags: 0
@@ -1873,6 +1868,63 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2156937795903889189, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
   m_PrefabInstance: {fileID: 1214653687}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1328236416
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2398540982400608405, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_Name
+      value: LevelOne
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.94341
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.34239
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3964521463740544058, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d22e44b06a386e64480454bc6980e26b, type: 3}
 --- !u!1001 &1341831653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3177,8 +3229,8 @@ MonoBehaviour:
   golemAttack: {fileID: 8300000, guid: 285e3bbe55ef3eb4a9d1dccb61128ffe, type: 3}
   tentacleHeadAttack: {fileID: 8300000, guid: 85b546d54d704b84090493a4fc6de1f5, type: 3}
   fireAttack: {fileID: 8300000, guid: 341c5b1e7d87c64498e416dbaa5429d1, type: 3}
-  lightningAttack: {fileID: 8300000, guid: 980516927b6c50844a85ee03a369e87c, type: 3}
-  waterAttack: {fileID: 8300000, guid: 78982cdc2936ae549b291a6abdf44e5e, type: 3}
+  lightningAttack: {fileID: 8300000, guid: 06b5156d8fe0b34478865412d34818a9, type: 3}
+  waterAttack: {fileID: 8300000, guid: 8804b5b5aeb252c4b8f56ae6b3316093, type: 3}
   earthAttack: {fileID: 8300000, guid: ba3ba6f444c7e4d48bc5ae5a84701dac, type: 3}
   airAttack: {fileID: 8300000, guid: 4c5aad9cb9b755440a049a05f8fe6893, type: 3}
   swordAttack: {fileID: 8300000, guid: 0ee947c29e8dabb48aeb8849df418924, type: 3}
@@ -3885,6 +3937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelThree
       objectReference: {fileID: 0}
+    - target: {fileID: 8777916719225816102, guid: af20c38474f89ea46a241456f2442f40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3908,3 +3964,4 @@ SceneRoots:
   - {fileID: 1835421764}
   - {fileID: 1011202927}
   - {fileID: 669725303}
+  - {fileID: 1328236416}
