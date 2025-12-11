@@ -49,7 +49,8 @@ public class Shoot : MonoBehaviour
 
 
 
-//Transformed old class with new one
+//used chatgpt to modify above code so the controller input could be used
+//ended up hardcoding controller only
 
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -58,7 +59,7 @@ public class Shoot : MonoBehaviour
 {
     public Transform bulletTransform;
     public float projectileTimeAlive = 5f;
-    public GamepadInput gamepadInput; // reference to your input handler
+    public GamepadInput gamepadInput; 
 
     private Camera cam;
 
@@ -71,9 +72,6 @@ public class Shoot : MonoBehaviour
     {
         Vector3 spawnPos = bulletTransform.position;
 
-        // ----------------------------
-        // 1. Determine aim direction
-        // ----------------------------
         Vector2 dir;
 
         bool usingGamepad = Gamepad.current != null && gamepadInput != null;
@@ -84,7 +82,7 @@ public class Shoot : MonoBehaviour
             // Aim with right stick / D-pad
             dir = gamepadInput.GetAimDirection();
 
-            // If stick not moved yet, just fallback to mouse (avoid zero vector)
+            
             if (dir.sqrMagnitude < 0.01f)
             {
                 dir = GetMouseAimDirection(spawnPos);
