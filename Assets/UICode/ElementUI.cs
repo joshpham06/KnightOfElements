@@ -36,6 +36,11 @@ public class ElementUI : MonoBehaviour
             previousElement();
 
     }
+    
+    public int FetchElement()
+    {
+        return CurrentElementIndex;
+    }
 
     private void SelectElement(int index)
     {

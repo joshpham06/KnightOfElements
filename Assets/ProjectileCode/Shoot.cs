@@ -4,6 +4,14 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     public Transform bulletTransform;
+    public GameObject FireBall;
+    public GameObject YellowBall;
+    public GameObject DirtBall;
+    public GameObject IceBall;
+    public GameObject WaterBall;
+    
+    public ElementUI ElementUI;
+    
     public float projectileTimeAlive = 5f;
 
     private Camera cam;
