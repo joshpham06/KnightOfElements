@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="" />
+    <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +57,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AnimationKight/Attack.anim" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/AnimationKight/Attack.anim" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
@@ -291,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765424934023</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed some spell sound effects">
+      <option name="closed" value="true" />
+      <created>1765427340614</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765427340615</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +379,8 @@
     <MESSAGE value="Changed Attack to Space" />
     <MESSAGE value="nothing" />
     <MESSAGE value="Added sounds to magic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sounds to magic" />
+    <MESSAGE value="Changed some spell sound effects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed some spell sound effects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

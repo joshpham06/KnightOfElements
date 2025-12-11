@@ -99,22 +99,22 @@ public class Attacker : MonoBehaviour
         {
             if (ElementUI.getCurrentElementIndex() == 0)
             {
-                Shoot.ShootBall(10f, FireBall); 
+                Shoot.ShootBall(8f, FireBall); 
                 Sounds.PlayFireAttack();
             }
             if (ElementUI.getCurrentElementIndex() == 1)
             {
-                Shoot.ShootBall(10f, LightningBall); 
+                Shoot.ShootBall(15f, LightningBall); 
                 Sounds.PlayLightningAttack();
             }
             if (ElementUI.getCurrentElementIndex() == 2)
             {
-                Shoot.ShootBall(10f, EarthBall); 
+                Shoot.ShootBall(8f, EarthBall); 
                 Sounds.PlayEarthAttack();
             }
             if (ElementUI.getCurrentElementIndex() == 3)
             {
-                Shoot.ShootBall(10f, AirBall); 
+                Shoot.ShootBall(12f, AirBall); 
                 Sounds.PlayAirAttack();
             }
             if (ElementUI.getCurrentElementIndex() == 4)
