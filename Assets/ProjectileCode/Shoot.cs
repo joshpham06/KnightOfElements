@@ -93,10 +93,6 @@ public class Shoot : MonoBehaviour
             // Mouse aiming
             dir = GetMouseAimDirection(spawnPos);
         }
-
-        // ----------------------------
-        // 2. Spawn projectile
-        // ----------------------------
         GameObject ball = Instantiate(prefab, spawnPos, Quaternion.identity);
 
         Rigidbody2D rb = ball.GetComponent<Rigidbody2D>();
