@@ -18,12 +18,14 @@ public class WaveManager : MonoBehaviour
     public WaveSpawner Spawner;
     public List<Wave> Waves;
     public float TimeBetweenWaves = 5f;
+    public int IsSpawning = -1;
 
     private int currentWaveIndex = 0;
 
     void Start()
     {
         if (Waves.Count > 0)
+            IsSpawning = 1;
             StartCoroutine(RunWaves());
     }
 
@@ -50,5 +52,6 @@ public class WaveManager : MonoBehaviour
         }
 
         // Add Waves Completed
+        IsSpawning = 0;
     }
 }
