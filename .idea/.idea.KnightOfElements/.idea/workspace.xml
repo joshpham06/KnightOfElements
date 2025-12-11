@@ -10,6 +10,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Ethan",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
