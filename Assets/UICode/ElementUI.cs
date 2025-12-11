@@ -7,6 +7,7 @@ public class ElementUI : MonoBehaviour
     public CanvasGroup[] ElementBorders;
     public Image[] ElementColors;
     public Image PlayerColor;
+ 
     public GamepadInput GamepadInput;
 
     private int CurrentElementIndex = 0;
@@ -65,6 +66,7 @@ public class ElementUI : MonoBehaviour
     
     public void previousElement()
     {
+        // Has this been replaced elsewhere?
         elementSelected--;
         if (elementSelected < 0)
         {
