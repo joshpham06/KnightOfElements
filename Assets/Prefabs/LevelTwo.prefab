@@ -2527,7 +2527,7 @@ GameObject:
   - component: {fileID: 4548204986051163539}
   m_Layer: 0
   m_Name: LevelTwo
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2591,7 +2591,7 @@ GameObject:
   - component: {fileID: 730399792988761940}
   m_Layer: 0
   m_Name: Collision High
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39878,7 +39878,7 @@ GameObject:
   - component: {fileID: 904872568265589468}
   m_Layer: 0
   m_Name: Collision Low
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

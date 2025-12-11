@@ -9,6 +9,8 @@ public class GamepadInput : MonoBehaviour
     public int GamepadIndex = 0;
     // If true, D-pad overrides analog stick when pressed
     public bool UseDpad = true;
+    
+    Vector2 _lastAimDirection = Vector2.right;
 
     public Vector2 GetMovement()
     {
@@ -55,7 +57,7 @@ public class GamepadInput : MonoBehaviour
         return Gamepad.current.buttonNorth.wasPressedThisFrame;
     }
     
-    // buttonWest = X on Xbox, Square on PlayStation
+    // 
     public bool WasAttackButtonPressed()
     {
         if (Gamepad.current == null)
@@ -63,7 +65,37 @@ public class GamepadInput : MonoBehaviour
             return false;
         }
         
-        return Gamepad.current.buttonWest.wasPressedThisFrame;
+        return Gamepad.current.rightTrigger.wasPressedThisFrame;
+    }
+
+    public bool WasNextElementPressed()
+    {
+        if (Gamepad.current == null)
+        {
+            return false;
+        }
+        
+        return Gamepad.current.rightShoulder.wasPressedThisFrame;
+    }
+    
+    public bool WasPreviousElementPressed()
+    {
+        if (Gamepad.current == null)
+        {
+            return false;
+        }
+        
+        return Gamepad.current.leftShoulder.wasPressedThisFrame;
+    }
+    
+    public bool WasProjectileButtonPressed()
+    {
+        if (Gamepad.current == null)
+        {
+            return false;
+        }
+        
+        return Gamepad.current.leftTrigger.wasPressedThisFrame;
     }
 
     private Gamepad GetGamepad()
@@ -142,4 +174,35 @@ public class GamepadInput : MonoBehaviour
     {
         return movement.sqrMagnitude > 1f;
     }
+    
+    //USED CHATPGT FOR THIS CODE START
+    public Vector2 GetAimDirection()
+    {
+        Gamepad gamepad = GetGamepad();
+        if (gamepad == null)
+        {
+            return _lastAimDirection;
+        }
+
+        Vector2 aim = gamepad.rightStick.ReadValue();
+
+        // Optional: allow D-pad to aim too
+        if (UseDpad && aim.sqrMagnitude < Deadzone * Deadzone)
+        {
+            Vector2 dpad = gamepad.dpad.ReadValue();
+            if (dpad.sqrMagnitude > 0f)
+            {
+                aim = dpad;
+            }
+        }
+
+        if (aim.magnitude >= Deadzone)
+        {
+            _lastAimDirection = aim.normalized;
+        }
+
+        return _lastAimDirection;
+    }
+    //USED CHATPGT FOR THIS CODE END
+    
 }

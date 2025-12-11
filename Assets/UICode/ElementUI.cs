@@ -8,7 +8,10 @@ public class ElementUI : MonoBehaviour
     public Image[] ElementColors;
     public Image PlayerColor;
  
+    public GamepadInput GamepadInput;
+
     private int CurrentElementIndex = 0;
+    private int elementSelected = 0;
 
     void Start()
     {
@@ -28,6 +31,11 @@ public class ElementUI : MonoBehaviour
             SelectElement(3);
         if (Input.GetKeyDown(KeyCode.Alpha5)) 
             SelectElement(4);
+        if(GamepadInput.WasNextElementPressed())
+            nextElement();
+        if(GamepadInput.WasPreviousElementPressed())
+            previousElement();
+
     }
     
     public int FetchElement()
@@ -37,14 +45,34 @@ public class ElementUI : MonoBehaviour
 
     private void SelectElement(int index)
     {
-        SwitchElement(index);
         UpdateElementIcon(index);
         UpdatePlayerColor(index);
     }
 
-    private void SwitchElement(int index)
+    public int getCurrentElementIndex()
+    {
+        return CurrentElementIndex;
+    }
+
+    public void nextElement()
+    {
+        elementSelected++;
+        if (elementSelected > 4)
+        {
+            elementSelected = 0;
+        }
+        SelectElement(elementSelected);
+    }
+    
+    public void previousElement()
     {
         // Has this been replaced elsewhere?
+        elementSelected--;
+        if (elementSelected < 0)
+        {
+            elementSelected = 4;
+        }
+        SelectElement(elementSelected);
     }
 
     private void UpdateElementIcon(int index)

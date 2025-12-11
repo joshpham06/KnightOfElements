@@ -10,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UICode/HealthUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UICode/HealthUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelOne.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaveCode/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WaveCode/WaveSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +50,29 @@
   "selectedUrlAndAccountId": {
     "url": "https://github.com/joshpham06/KnightOfElements.git",
     "accountId": "52dd0e54-633b-48d9-b510-781837d17c44"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joshpham06/KnightOfElements.git&quot;,
+    &quot;accountId&quot;: &quot;31e1553c-6222-472c-8e9b-584cec5b3e77&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "joshpham06",
-    "repository": "KnightOfElements"
+    &quot;owner&quot;: &quot;joshpham06&quot;,
+    &quot;repository&quot;: &quot;KnightOfElements&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AnimationKight/Attack.anim" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/EnityInfoCode/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/ProjectileCode/Shoot.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/Scenes/KnightOfTheElements.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,6 +96,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "ScreenStateUI",
+    "git-widget-placeholder": "Ethan",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -166,6 +179,7 @@
       <workItem from="1765241263408" duration="2518000" />
       <workItem from="1765245338748" duration="10865000" />
       <workItem from="1765385184873" duration="1132000" />
+      <workItem from="1765401476901" duration="15237000" />
       <workItem from="1765401476901" duration="2840000" />
       <workItem from="1765392584132" duration="9694000" />
       <workItem from="1765406050874" duration="314000" />
@@ -283,7 +297,79 @@
       <option name="project" value="LOCAL" />
       <updated>1765404630150</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00015" summary="Changed Attack to Space">
+      <option name="closed" value="true" />
+      <created>1765404925590</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765404925590</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added sounds to magic">
+      <option name="closed" value="true" />
+      <created>1765424934023</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765424934023</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changed some spell sound effects">
+      <option name="closed" value="true" />
+      <created>1765427340614</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765427340615</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added autoassigned destination of player for the enemies">
+      <option name="closed" value="true" />
+      <created>1765428096433</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765428096433</updated>
+    </task>
+    <task id="LOCAL-00019" summary="-">
+      <option name="closed" value="true" />
+      <created>1765428520322</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765428520322</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed Physics between enemies to none so they dont stack on each other and get stuck">
+      <option name="closed" value="true" />
+      <created>1765431909297</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765431909297</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added back mouse aim">
+      <option name="closed" value="true" />
+      <created>1765438920008</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1765438920008</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixed water physics and yellowball">
+      <option name="closed" value="true" />
+      <created>1765439674990</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765439674990</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Merge branch 'main' of https://github.com/joshpham06/KnightOfElements into Ethan&#10;&#10;# Conflicts:&#10;#&#9;.idea/.idea.KnightOfElements/.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1765475823876</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765475823876</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,8 +441,16 @@
     <MESSAGE value="Sounds Updated" />
     <MESSAGE value="sword sounds" />
     <MESSAGE value="Rewire UI" />
+    <MESSAGE value="Changed Attack to Space" />
     <MESSAGE value="nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="nothing" />
+    <MESSAGE value="Added sounds to magic" />
+    <MESSAGE value="Changed some spell sound effects" />
+    <MESSAGE value="Added autoassigned destination of player for the enemies" />
+    <MESSAGE value="-" />
+    <MESSAGE value="Changed Physics between enemies to none so they dont stack on each other and get stuck" />
+    <MESSAGE value="added back mouse aim" />
+    <MESSAGE value="fixed water physics and yellowball" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed water physics and yellowball" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

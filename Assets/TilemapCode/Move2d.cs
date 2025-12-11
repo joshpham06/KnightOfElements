@@ -7,6 +7,7 @@ public class Move2D : MonoBehaviour
     public SpriteRenderer SpriteRenderer;
     public KeyboardInput KeyboardInput;
     public GamepadInput GamepadInput;
+    public Rigidbody2D rigidbody2D;
 
     private Vector2 currentMovementInput;
 
@@ -37,6 +38,9 @@ public class Move2D : MonoBehaviour
         
         if (GamepadInput == null)
             GamepadInput = GetComponent<GamepadInput>();
+        
+        if (rigidbody2D == null)
+            rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Gamepad input takes priority over keyboard when active
@@ -113,6 +117,7 @@ public class Move2D : MonoBehaviour
     {
         Vector3 movementDelta = CalculateMovementDelta();
         transform.position = transform.position + movementDelta;
+        rigidbody2D.linearVelocity = rigidbody2D.linearVelocity * 0;
     }
 
     // Multiplies by Time.deltaTime for frame-rate independent movement
