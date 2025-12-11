@@ -44,7 +44,6 @@ public class ElementUI : MonoBehaviour
 
     private void SelectElement(int index)
     {
-        SwitchElement(index);
         UpdateElementIcon(index);
         UpdatePlayerColor(index);
     }
@@ -72,11 +71,6 @@ public class ElementUI : MonoBehaviour
             elementSelected = 4;
         }
         SelectElement(elementSelected);
-    }
-    
-    private void SwitchElement(int index)
-    {
-        
     }
 
     private void UpdateElementIcon(int index)
