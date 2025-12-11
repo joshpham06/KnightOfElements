@@ -1,4 +1,5 @@
 using System.Collections;
+using Pathfinding;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -53,7 +54,13 @@ public class WaveSpawner : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
 
             Vector3 pos = RandomLocationOutsideSafeRadius();
-            Instantiate(Prefab, pos, Quaternion.identity);
+            GameObject enemy = Instantiate(Prefab, pos, Quaternion.identity);
+
+            var aiSetter = enemy.GetComponent<AIDestinationSetter>();
+            if (aiSetter != null)
+            {
+                aiSetter.target = Player.transform;
+            }
 
             SpawnedThisWave++;
         }

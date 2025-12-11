@@ -16,6 +16,7 @@ public class PlayerInfo : MonoBehaviour
     private int score = 0; 
     public SpriteRenderer spriteRenderer;
     public HealthUI HealthUI;
+    public ScoreUI ScoreUI;
     
     
     private void Update()
@@ -82,6 +83,7 @@ public class PlayerInfo : MonoBehaviour
     public void AddScore(int points)
     {
         score += points;
+        ScoreUI.UpdateScore(score);
     }
 
     public void SetAttackDmg(int dmg)
