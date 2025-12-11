@@ -13,6 +13,8 @@ TagManager:
   - AutoPickUp
   - Health
   - Gem
+  - Level
+  - Ground
   layers:
   - Default
   - TransparentFX
