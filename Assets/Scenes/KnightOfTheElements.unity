@@ -1619,7 +1619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: AstarPathfindingProject::AstarPath
   version: 1073741824
   data:
-    dataString: UEsDBBQAAAgIAACAn+szPdJ2xQIAAP4FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVNty2jAQ/RVGzyVjLgXStxYI6UMuE9LJQ8mDsNZYg5A8ugRIhn/vrmxjQxlmLJ+9nT278heT2hWQemMXVooHI4D96DA6s2+dxngPB74xeik/ofZ5k8Ln5MSjzwv30iDeozBnduCtTH/qjSLnBMGgZWbsbi42MDXOO4QzrhygyRpP0Rqhrw474KN7SyFHPPXHdPrE023SOeExBe3Btlz7N8n4Fn9VQDe5GYzoffJ9VEWWgUGniu8KENRFEz+Y1JVG0U1jf5UH9ZIapaSryDF/LGLzL/xIrQvJsdHIhnxzkJvcU6p24FOWOfCVCpYfZ9KiXmVG9suUIu6425acPrgKVGMS2ZQpH/6zdnvRnFmzu6+r9hKq4HOZbpFfyp1vadyGZ5e0g95zteVrBW856EezsCZogUZvA4UGB/1Z83pubJpDum3wkuoVGIpG6Xqk9UCph1Ps/bD0UJz7SG6GDfrHgVsqE2WvcpKlQuKagMWR/cZ+4hK5qgKiRBLjX/mmvW2V4U5a59FUiVCh5PuM8wEBOoVK9y45aKK3NsFSLjaPXEmN4KfGaohwRbAAzZU/PmNGf70AV7YWryvLHaeLV7GrbPV9ugqJcOOfJFemZ7M/D9sGBS7ucn36+05DcLnZP4DLn4JXUrfUJsMjCjw1Wpd72xazDlsGm/G0Febh4IOFGfc8VkM6uGCiHYpaxggdlKJdjg1ERtgA/d9J35xjXRVh9miQGYIXz0h/E6S4vCEsGSUwnKxH6ySbDNcZdCe3fT6G3mAyGPFkOBYsXiGpUW6unku9qinhdummF43Xpf4sdhaWF/HKCsv3C/m5M63JS52ZZWoB9FOZ4dwsWCyCnxUxFxLbXIL3Use9ZF8rpky6BbE6J1pFYecHb/mqybJihfwwnpAVm8bv4IoRfL6SuLofEvZU/CIZKBwdiFepYMcLMiUndvoHUEsDBBQAAAgIAACAn+tUwcKJbAAAAHcAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNUz0TPRUVBKL0osyCgGChiCOKWZKSB2tJKBmUGqiUWSWZJBmoVJUlqqroWlUaJ5qqGxhbFZooGJeYpSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf6zM90nbFAgAA/gUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf61TBwolsAAAAdwAAAAkAJAAAAAAAAAAAAAAAEgMAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAADJAwAAAAA=
+    dataString: UEsDBBQAAAgIAACAn+s+4fmNxQIAAP0FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVNty2jAQ/RVGzyXjAOXStxYI6UMSJqSTh5IHYa+xBiF5dAmQTP69u7KMDWWYsXz2dvbsyp9MKFtC6rRZGJE96AzYjw6jM/vWaYz3cORbrVbiA2qfV5G5gpx48HnmTmjEbynM6j04I9KfaivJOUHQK5Frs59nW5hq6yzCOZcW0GS0o2iF0GeHHfHRnVDICU+9EZ0+8DRJOl94TEE5MG3Xm9FtkiS9GNDt3fR7E/wNvsfAKs6rVPJ9CRk10YT3x3WhYXBT2F70oFZSLaWwkRtzpzL0/sxP1HkmOPYZyJBvAWJbOErVDnzKcwsuimD4aSYMylVlZL90peGe213F6Z1LTzXGgU2V8uE/a/c2mHOj9/d1VRQBIVeIdIf8Um5dS+I2PLuk7dWByx3fSHgtQD3qhdFeZWh0xlOot9CbNa/nxqYFpLsGr6hegb5slK4nWs+TevgKvR9XDspzH8nNoEH/WLArqYPsMSdZIhK2BAyO7Df2E3bIxgqIEkmMf+Hb9rJFw50w1qEpihBR8l3ifCADlULUvUsOiuhttDeUi80DV1LDu6k2CgIcCZaguHSnJWZ01wtwZWvxurLccbp3kV201dfpKiTAjX+SXJmW+nAetvESbNjl+vT3jYZgC314AFs8eSeFaqlNhkcUeKqVqva2LWYdtvIm52krzMHReQMz7niohnRwwbJ2KGoZIpSXknY5NBAYYQP0fyN9C451ZYDZo0ZmCF48A/2tF9nlDWHJMIHBeDPcJPl4sMmhO570+Ahu++P+kCeDUcbCFRIK5eZyWekVp4TbpZpeFF6X+qvYWRhehiubGX5YiI+9bk1eqFyvUgOgnqoM52bBYBH8rGTzTGCbK3BOqLCX7HPNpE53kK3PidZB2PnRGb5usqxZKd61I2TNpuEzuGYEn68kru67gAMVv0gGEkcH2YuQsOclmZIv9vUPUEsDBBQAAAgIAACAn+tUwcKJbAAAAHcAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNUz0TPRUVBKL0osyCgGChiCOKWZKSB2tJKBmUGqiUWSWZJBmoVJUlqqroWlUaJ5qqGxhbFZooGJeYpSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAICf6z7h+Y3FAgAA/QUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAICf61TBwolsAAAAdwAAAAkAJAAAAAAAAAAAAAAAEgMAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAADJAwAAAAA=
     file_cachedStartup: {fileID: 0}
     cacheStartup: 0
   showNavGraphs: 1
@@ -1819,6 +1819,70 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2156937795903889189, guid: 717347fca759f4a71b4f528008bc8b9a, type: 3}
   m_PrefabInstance: {fileID: 1214653687}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1215230466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215230469}
+  - component: {fileID: 1215230468}
+  - component: {fileID: 1215230467}
+  m_Layer: 0
+  m_Name: WaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1215230467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215230466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbdbf966c87e449d85f11a8a8b5e602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaveSpawner
+  Player: {fileID: 785636009}
+  SafeRadius: {fileID: 0}
+  Tilemap: {fileID: 0}
+  SpawnedThisWave: 0
+--- !u!114 &1215230468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215230466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b67b3859a2ef418b97dada8fb88a7da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WaveManager
+  Spawner: {fileID: 0}
+  Waves: []
+  TimeBetweenWaves: 5
+--- !u!4 &1215230469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215230466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.02535, y: 4.48218, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1341831653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3831,6 +3895,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 933658878501617645, guid: af20c38474f89ea46a241456f2442f40, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 933658878501617645, guid: af20c38474f89ea46a241456f2442f40, type: 3}
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
@@ -3883,6 +3951,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7856611348846551289, guid: af20c38474f89ea46a241456f2442f40, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856611348846551289, guid: af20c38474f89ea46a241456f2442f40, type: 3}
       propertyPath: m_TagString
       value: Wall
       objectReference: {fileID: 0}
@@ -3913,3 +3985,4 @@ SceneRoots:
   - {fileID: 1835421764}
   - {fileID: 1011202927}
   - {fileID: 669725303}
+  - {fileID: 1215230469}
