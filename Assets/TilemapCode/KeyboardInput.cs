@@ -50,6 +50,16 @@ public class KeyboardInput : MonoBehaviour
         
         return Keyboard.current[Key.Space].wasPressedThisFrame;
     }
+    
+    public bool WasProjectileButtonPressed()
+    {
+        if (IsKeyboardUnavailable())
+        {
+            return false;
+        }
+        
+        return Keyboard.current[Key.F].wasPressedThisFrame;
+    }
 
     private bool IsKeyboardUnavailable()
     {

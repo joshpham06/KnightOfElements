@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 3608117874278633829}
   m_Layer: 0
   m_Name: Collision High
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29185,7 +29185,7 @@ GameObject:
   - component: {fileID: 4379186998009786331}
   m_Layer: 0
   m_Name: NoCollisionLayering
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30164,7 +30164,7 @@ GameObject:
   - component: {fileID: 5212485839269740833}
   m_Layer: 0
   m_Name: NonCollisionHigh
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32889,7 +32889,7 @@ GameObject:
   - component: {fileID: 3245555406234389124}
   m_Layer: 0
   m_Name: Collision Low
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42779,7 +42779,7 @@ GameObject:
   - component: {fileID: 6695532528716614597}
   m_Layer: 0
   m_Name: NonCollisionLow
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

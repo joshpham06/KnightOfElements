@@ -7,10 +7,12 @@ public class Enemy : MonoBehaviour
     public int health;
     public int damage; 
     public SpriteRenderer spriteRenderer;
+    public PlayerInfo playerInfo;
 
     public void Start()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        playerInfo = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInfo>(); 
     }
     private void Update()
     {
@@ -42,6 +44,23 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
+        if (this.CompareTag("Golem"))
+        {
+            playerInfo.AddScore(200);
+            
+        }
+        if (this.CompareTag("Wolf"))
+        {
+            playerInfo.AddScore(100);
+            
+        }
+        if (this.CompareTag("TentacleHead"))
+        {
+            playerInfo.AddScore(150);
+            
+        } 
+        
+        
         Destroy(gameObject);
     }
     
