@@ -1288,6 +1288,7 @@ MonoBehaviour:
   SpriteRenderer: {fileID: 785636013}
   KeyboardInput: {fileID: 785636010}
   GamepadInput: {fileID: 785636011}
+  rigidbody2D: {fileID: 0}
 --- !u!212 &785636013
 SpriteRenderer:
   m_ObjectHideFlags: 0
