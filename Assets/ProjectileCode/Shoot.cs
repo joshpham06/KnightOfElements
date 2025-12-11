@@ -30,9 +30,9 @@ public class Shoot : MonoBehaviour
         if  (index == 1)
             ShootBall(2f, YellowBall);
         if   (index == 2)
-            ShootBall(10f, DirtBall);
+            ShootBall(7f, DirtBall);
         if  (index == 3)
-            ShootBall(10f, IceBall);
+            ShootBall(15f, IceBall);
         if  (index == 4)
             ShootBall(10f, WaterBall);
     }

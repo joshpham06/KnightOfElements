@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     public int health;
     public int damage; 
     public SpriteRenderer spriteRenderer;
-
+    public GameObject FloatingScorePrefab;
     public void Start()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
@@ -42,6 +42,8 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
+        Instantiate(FloatingScorePrefab, transform.position, Quaternion.identity);
+        
         Destroy(gameObject);
     }
     
