@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FireBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FireBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FireBall.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FireBall.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelThree.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProjectileCode/Shoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProjectileCode/Shoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/GamepadInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/GamepadInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/KeyboardInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/KeyboardInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UICode/ElementUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +170,7 @@
       <workItem from="1765241263408" duration="2518000" />
       <workItem from="1765245338748" duration="10865000" />
       <workItem from="1765385184873" duration="1132000" />
+      <workItem from="1765401476901" duration="14380000" />
       <workItem from="1765401476901" duration="2840000" />
       <workItem from="1765392584132" duration="9694000" />
       <workItem from="1765406050874" duration="314000" />
@@ -276,6 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765404630150</updated>
     </task>
+    <task id="LOCAL-00015" summary="Changed Attack to Space">
+      <option name="closed" value="true" />
+      <created>1765404925590</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765404925590</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <option name="localTasksCounter" value="14" />
     <servers />
   </component>
@@ -348,6 +368,8 @@
     <MESSAGE value="Sounds Updated" />
     <MESSAGE value="sword sounds" />
     <MESSAGE value="Rewire UI" />
+    <MESSAGE value="Changed Attack to Space" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Attack to Space" />
     <MESSAGE value="nothing" />
     <option name="LAST_COMMIT_MESSAGE" value="nothing" />
   </component>
