@@ -1,0 +1,167 @@
+Index: .idea/.idea.KnightOfElements/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1716de2c-812a-458b-90f5-46187dc61f9c\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <excluded-from-favorite>\n      <branch-storage>\n        <map>\n          <entry type=\"LOCAL\">\n            <value>\n              <list>\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"main\" />\n              </list>\n            </value>\n          </entry>\n        </map>\n      </branch-storage>\n    </excluded-from-favorite>\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;joshpham06&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/joshpham06/KnightOfElements.git&quot;,\n    &quot;accountId&quot;: &quot;94d19908-f649-4e41-a7f8-91f52936bcba&quot;\n  }\n}</component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6\n}</component>\n  <component name=\"ProjectId\" id=\"35RcqBesh53aIVaYS4UE437sFkN\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;Ethan&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Attach to Unity Editor.Attach to Unity Editor\">\n    <configuration name=\"Start Unity\" type=\"RunUnityExe\" factoryName=\"Unity Executable\">\n      <option name=\"EXE_PATH\" value=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.7f2\\Editor\\Unity.exe\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\"-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"ENV_FILE_PATHS\" value=\"\" />\n      <option name=\"REDIRECT_INPUT_PATH\" value=\"\" />\n      <option name=\"PTY_MODE\" value=\"Auto\" />\n      <option name=\"MIXED_MODE_DEBUG\" value=\"0\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Unit Tests (batch mode)\" type=\"RunUnityExe\" factoryName=\"Unity Executable\">\n      <option name=\"EXE_PATH\" value=\"C:\\Program Files\\Unity\\Hub\\Editor\\6000.2.7f2\\Editor\\Unity.exe\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\"-runTests -batchmode -projectPath &quot;$PROJECT_DIR$&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"ENV_FILE_PATHS\" value=\"\" />\n      <option name=\"REDIRECT_INPUT_PATH\" value=\"\" />\n      <option name=\"PTY_MODE\" value=\"Auto\" />\n      <option name=\"MIXED_MODE_DEBUG\" value=\"0\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Attach to Unity Editor &amp; Play\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"UNITY_ATTACH_AND_PLAY\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\n      <option name=\"allowRunningInParallel\" value=\"false\" />\n      <option name=\"listenPortForConnections\" value=\"false\" />\n      <option name=\"pid\" />\n      <option name=\"projectPathOnTarget\" />\n      <option name=\"runtimes\">\n        <list />\n      </option>\n      <option name=\"selectedOptions\">\n        <list />\n      </option>\n      <option name=\"useMixedMode\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Attach to Unity Editor\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"Unity Debug\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\n      <option name=\"allowRunningInParallel\" value=\"false\" />\n      <option name=\"listenPortForConnections\" value=\"false\" />\n      <option name=\"pid\" />\n      <option name=\"projectPathOnTarget\" />\n      <option name=\"runtimes\">\n        <list />\n      </option>\n      <option name=\"selectedOptions\">\n        <list />\n      </option>\n      <option name=\"useMixedMode\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Attach to Device\" type=\"UnityDevicePlayer\" factoryName=\"UnityAttachToDevicePlayer\">\n      <method v=\"2\" />\n    </configuration>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1716de2c-812a-458b-90f5-46187dc61f9c\" name=\"Changes\" comment=\"\" />\n      <created>1763076512226</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1763076512226</updated>\n      <workItem from=\"1763076513295\" duration=\"1388000\" />\n      <workItem from=\"1764487049884\" duration=\"12378000\" />\n      <workItem from=\"1764808157006\" duration=\"3683000\" />\n      <workItem from=\"1764873837687\" duration=\"1028000\" />\n      <workItem from=\"1764876454984\" duration=\"3618000\" />\n      <workItem from=\"1764882891290\" duration=\"2600000\" />\n      <workItem from=\"1765162692909\" duration=\"2667000\" />\n      <workItem from=\"1765241263408\" duration=\"2518000\" />\n      <workItem from=\"1765245338748\" duration=\"10567000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"initial push\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1764806164940</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1764806164940</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"AI Animations and Pathfinding Linked\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1764878408975</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1764878408975</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Changed Rigid Body on Player to freeze all axis so the enemies cant push you\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1764882967108</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1764882967108</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Prefab Fix\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1764887454170</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1764887454170</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Added AutoSounds to Sword and Enemy Attacks\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1765165330208</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1765165330208</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Added Coroutine to Attack Animations and sounds to mobs\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1765245351001</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1765245351001</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1765248380947</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1765248380947</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Added ability for player to take damage but still needs better timing\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1765256384155</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1765256384155</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Timing on Damage Taken Fixed\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1765261632577</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1765261632577</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"10\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"true\" />\n  <component name=\"UnityProjectDiscoverer\">\n    <option name=\"hasUnityReference\" value=\"true\" />\n    <option name=\"unityProject\" value=\"true\" />\n    <option name=\"unityProjectFolder\" value=\"true\" />\n  </component>\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"Both\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"initial push\" />\n    <MESSAGE value=\"AI Animations and Pathfinding Linked\" />\n    <MESSAGE value=\"Changed Rigid Body on Player to freeze all axis so the enemies cant push you\" />\n    <MESSAGE value=\"Prefab Fix\" />\n    <MESSAGE value=\"Added AutoSounds to Sword and Enemy Attacks\" />\n    <MESSAGE value=\"Added Coroutine to Attack Animations and sounds to mobs\" />\n    <MESSAGE value=\"Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions\" />\n    <MESSAGE value=\"Added ability for player to take damage but still needs better timing\" />\n    <MESSAGE value=\"Timing on Damage Taken Fixed\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Timing on Damage Taken Fixed\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.OperationCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.OperationCanceledException\" />\n          <option name=\"timeStamp\" value=\"1\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.Tasks.TaskCanceledException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.Tasks.TaskCanceledException\" />\n          <option name=\"timeStamp\" value=\"2\" />\n        </breakpoint>\n        <breakpoint enabled=\"true\" type=\"DotNet_Exception_Breakpoints\">\n          <properties exception=\"System.Threading.ThreadAbortException\" breakIfHandledByOtherCode=\"false\" displayValue=\"System.Threading.ThreadAbortException\" />\n          <option name=\"timeStamp\" value=\"3\" />\n        </breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.KnightOfElements/.idea/workspace.xml b/.idea/.idea.KnightOfElements/.idea/workspace.xml
+--- a/.idea/.idea.KnightOfElements/.idea/workspace.xml	(revision f03b7b39b4964c857152d2f396136c3304c5c2a2)
++++ b/.idea/.idea.KnightOfElements/.idea/workspace.xml	(date 1765394260967)
+@@ -6,12 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/Enemy.cs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -34,7 +28,7 @@
+     </excluded-from-favorite>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="Elements-Josh" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -52,13 +46,16 @@
+   }
+ }</component>
+   <component name="HighlightingSettingsPerFile">
++    <setting file="mock:///Users/joshuapham/Documents/Unity Projects/KnightOfElements/Assets/Prefabs/Element.prefab" root0="SKIP_HIGHLIGHTING" />
++    <setting file="mock:///Users/joshuapham/Documents/Unity Projects/KnightOfElements/Assets/Scenes/KnightOfTheElements.unity" root0="SKIP_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="mock://C:/Users/ethan/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
++    <setting file="mock:///Users/joshuapham/Documents/Unity Projects/KnightOfElements/Assets/Scenes/KnightOfTheElements.unity" root0="SKIP_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="mock:///Users/joshuapham/Documents/Unity Projects/KnightOfElements/Assets/UICode/ElementUI.cs" root0="SKIP_HIGHLIGHTING" />
++    <setting file="mock:///Users/joshuapham/Documents/Unity Projects/KnightOfElements/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
++    <setting file="mock:///Users/joshuapham/Documents/Unity Projects/KnightOfElements/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+   </component>
+   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+   <component name="ProjectColorInfo">{
+@@ -69,24 +66,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;Ethan&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "main",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe" />
++      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity" />
+       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+       <option name="PASS_PARENT_ENVS" value="1" />
+@@ -98,7 +95,7 @@
+       <method v="2" />
+     </configuration>
+     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Unity.exe" />
++      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity" />
+       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;$PROJECT_DIR$&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+       <option name="PASS_PARENT_ENVS" value="1" />
+@@ -230,7 +227,31 @@
+       <option name="project" value="LOCAL" />
+       <updated>1765261632577</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Updated healthbar and added player icon and color">
++      <option name="closed" value="true" />
++      <created>1765359162067</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1765359162067</updated>
++    </task>
++    <task id="LOCAL-00011" summary="fixed hotbar sizing">
++      <option name="closed" value="true" />
++      <created>1765359748969</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1765359748969</updated>
++    </task>
++    <task id="LOCAL-00012" summary="hotbar spacing">
++      <option name="closed" value="true" />
++      <created>1765359797419</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1765359797419</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -249,7 +270,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -266,7 +299,10 @@
+     <MESSAGE value="Added useful things to PlayerInfo and Enemy classes like taking damage and dying functions" />
+     <MESSAGE value="Added ability for player to take damage but still needs better timing" />
+     <MESSAGE value="Timing on Damage Taken Fixed" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Timing on Damage Taken Fixed" />
++    <MESSAGE value="Updated healthbar and added player icon and color" />
++    <MESSAGE value="fixed hotbar sizing" />
++    <MESSAGE value="hotbar spacing" />
++    <option name="LAST_COMMIT_MESSAGE" value="hotbar spacing" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

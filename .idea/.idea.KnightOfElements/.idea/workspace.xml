@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1716de2c-812a-458b-90f5-46187dc61f9c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnityInfoCode/PlayerInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GolemAI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TentacleHeadAI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WolfAI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WolfAI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaveCode/WaveSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WaveCode/WaveSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KnightOfElements/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +34,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Ethan2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,11 +62,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/EnityInfoCode/EnemyHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/KnightOfTheElements.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/sparkpilot/RiderProjects/KnightOfElements/Assets/TilemapCode/Attacker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TilemapCode/EnemySpriteAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UICode/ScoreUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -77,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Ethan",
+    "git-widget-placeholder": "Spawning-Josh",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -269,14 +276,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765409090662</updated>
     </task>
-    <task id="LOCAL-00014" summary="Rewire UI">
+    <task id="LOCAL-00014" summary="Wave system spawning complete">
       <option name="closed" value="true" />
-      <created>1765404630150</created>
+      <created>1765412663797</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1765404630150</updated>
+      <updated>1765412663797</updated>
     </task>
+    <task id="LOCAL-00015" summary="Linked element background colors">
+      <option name="closed" value="true" />
+      <created>1765412861699</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765412861699</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed pathfinding positioning">
+      <option name="closed" value="true" />
+      <created>1765413122240</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765413122240</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <task id="LOCAL-00015" summary="Changed Attack to Space">
       <option name="closed" value="true" />
       <created>1765404925590</created>
@@ -330,7 +354,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="Spawning-Josh" />
                       </list>
                     </value>
                   </entry>
@@ -359,6 +383,10 @@
     <MESSAGE value="Rewire UI" />
     <MESSAGE value="Changed Attack to Space" />
     <MESSAGE value="nothing" />
+    <MESSAGE value="Wave system spawning complete" />
+    <MESSAGE value="Linked element background colors" />
+    <MESSAGE value="Fixed pathfinding positioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed pathfinding positioning" />
     <option name="LAST_COMMIT_MESSAGE" value="Changed Attack to Space" />
   </component>
   <component name="XDebuggerManager">
