@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 9096196409616151462}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.86, y: -4.39, z: 0}
+  m_LocalPosition: {x: -9.77, y: -4.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -317,8 +317,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpriteAnimator
   AIPath: {fileID: 734990606684575415}
-  Animator: {fileID: 0}
-  SpriteRenderer: {fileID: 0}
+  Animator: {fileID: 2325817384405446363}
+  SpriteRenderer: {fileID: 1188016509344652341}
 --- !u!114 &4494941644783369467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,9 +388,10 @@ MonoBehaviour:
   Shoot: {fileID: 0}
   FireBall: {fileID: 0}
   Sounds: {fileID: 0}
-  currentObject: {fileID: 0}
+  currentObject: {fileID: 9096196409616151462}
   PlayerInfo: {fileID: 0}
   Enemy: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &-2028265137995940227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,3 +407,4 @@ MonoBehaviour:
   health: 100
   damage: 20
   spriteRenderer: {fileID: 0}
+  playerInfo: {fileID: 0}
