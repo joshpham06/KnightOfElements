@@ -37,6 +37,15 @@ public class WaveSpawner : MonoBehaviour
         SpawnRoutine = StartCoroutine(SpawnLoop());
     }
 
+
+    private void Update()
+    {
+        if(Tilemap == null)
+            Tilemap = GameObject.FindGameObjectWithTag("Level").GetComponentInChildren<Tilemap>();
+    }
+    
+    
+
     public void StopWave()
     {
         IsActive = false;
