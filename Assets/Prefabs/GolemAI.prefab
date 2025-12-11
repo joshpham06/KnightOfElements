@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 301908402988641697}
   - component: {fileID: 1188016509344652341}
   - component: {fileID: 2325817384405446363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GolemAIAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 3213031511955187645}
   - component: {fileID: 691410749559604636}
   - component: {fileID: -2028265137995940227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GolemAI
   m_TagString: Golem
   m_Icon: {fileID: 0}

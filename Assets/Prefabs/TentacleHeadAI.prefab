@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8777955902781206435}
   - component: {fileID: 648112983520103979}
   - component: {fileID: 7144655945862795244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TentacleHeadManual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 7334386512282161495}
   - component: {fileID: 2299852403537742465}
   - component: {fileID: -5347634465232702651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TentacleHeadAI
   m_TagString: TentacleHead
   m_Icon: {fileID: 0}

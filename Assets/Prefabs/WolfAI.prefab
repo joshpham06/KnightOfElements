@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 7491328487334053878}
   - component: {fileID: 4415745362904414897}
   - component: {fileID: -4345598577986112837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WolfAI
   m_TagString: Wolf
   m_Icon: {fileID: 0}
@@ -278,6 +278,7 @@ MonoBehaviour:
   currentObject: {fileID: 0}
   PlayerInfo: {fileID: 0}
   Enemy: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &-4345598577986112837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,6 +293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   health: 50
   damage: 10
+  spriteRenderer: {fileID: 0}
+  playerInfo: {fileID: 0}
 --- !u!1 &7981337168246076723
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +306,7 @@ GameObject:
   - component: {fileID: 8658616661041187412}
   - component: {fileID: 826047746528204150}
   - component: {fileID: 2214885111664597413}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WolfManual (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
